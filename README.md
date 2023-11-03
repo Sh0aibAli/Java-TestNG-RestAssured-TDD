@@ -15,17 +15,16 @@ First method:-
 
 Second method:-
 1. Import the project in eclipse or open the project in IntelliJ
-2. Open testng.xml file present in root folder, right click > Run As > Testng Test
+2. Open UserTests.java file present in src/test/java api.test package, right click > Run As > Testng Test
 
 ## Framework Description
 This framework consist of
-1. logs package: This package consist of log updates captured during the execution of the test cases  
-    1. Apache POI, Apache POI - Java API To Access Microsoft Format Files (poi)  
+1. logs package: This package consist of log updates captured during the execution of the test cases
+    1. Apache POI, Apache POI - Java API To Access Microsoft Format Files (poi)
     2. Apache POI API Based On OPC and OOXML Schemas » 5.2.3, Apache POI - Java API To Access Microsoft Format Files (poi-ooxml)
        Using these above two dependencies in POM.xml file, this framework is able to capture and store the log updates in txt files.
 
-2. reports package
-   1. Consist of extent reports    
+2. reports package: Consist of extent reports
 
 3. src/test package: This package consist of two nested packages
     1. Java: It consist of a nested package
@@ -92,3 +91,11 @@ This framework consist of
 6. testData: It consist of Userdata.xlsx file for testing data
 
 7. pom.xml: Consists of all the required dependencies used in this framework
+
+
+
+
+
+    
+
+ 

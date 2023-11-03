@@ -25,6 +25,7 @@ public class DDTests {
 		
 		Response response = UserEndPoints.createUser(userPayload);
 		response.then().log().all();
+
 		Assert.assertEquals(response.getStatusCode(), 200);
 
 		Response response1 = UserEndPoints.readUser(userName);
